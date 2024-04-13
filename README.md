@@ -1,6 +1,6 @@
 # Methods
 
-**_Cómo trabajarlo:_**
+**_Cómo efectuar este procedimiento:_**
 
 **_Se ingresan 2 números para poder efectuar básicamente algunas operaciones matemáticas._**
 
