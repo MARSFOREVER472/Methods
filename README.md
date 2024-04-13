@@ -4,7 +4,7 @@
 
 **_Se ingresan 2 números para poder efectuar básicamente algunas operaciones matemáticas._**
 
-_Ejemplo:_
+**_Ejemplo:_**
 
 - _Valor 1:_ 5
 - _Valor 2:_ 5
