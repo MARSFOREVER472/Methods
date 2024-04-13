@@ -2,7 +2,7 @@
 
 _Cómo trabajarlo:_
 
-Se ingresan 2 números para poder efectuar algunas operaciones matemáticas.
+_Se ingresan 2 números para poder efectuar algunas operaciones matemáticas._
 
 Ejemplo:
 
