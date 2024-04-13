@@ -4,7 +4,7 @@ _Cómo trabajarlo:_
 
 Se ingresan 2 números para poder efectuar algunas operaciones matemáticas.
 
-Ej:
+Ejemplo:
 
 - Valor 1: 5
 - Valor 2: 5
