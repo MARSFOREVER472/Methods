@@ -10,7 +10,7 @@
 - **_Valor 2:_** ```5```
 - **_Entre ambos números, se puede efectuar cualquier operación matemática, como en este caso es la suma de estos 2, y da como resultado ```10```._**
 
-### Algoritmo completo mediante código en C#:
+### _Algoritmo completo mediante código en C#:_
 ```
 ﻿using System;
 
