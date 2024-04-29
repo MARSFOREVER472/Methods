@@ -18,6 +18,7 @@ namespace MetodosDePrueba
             // double total = Suma(2, 3); // Esta línea de código tiene que tener un método estático.
             // Console.WriteLine(total); // Imprime desde la variable la suma total.
             Suma();
+            Resta();
         }
 
         // public double[] Suma()
@@ -37,6 +38,20 @@ namespace MetodosDePrueba
             int num1 = int.Parse(Console.ReadLine()); // Número 1
             int num2 = int.Parse(Console.ReadLine()); // Número 2
             Console.WriteLine($"La suma total de dos números es: {num1 + num2}"); // Suma total.
+
+        }
+
+        public static void Resta()
+        {
+            // Console.WriteLine($"La suma de dos números es {num1 + num2}"); // Imprime la suma total de dos números.
+
+            // return num1 + num2;
+
+            // Existen diferentes formas de sumar dos números fundamentales utilizando variables ya avanzadas.
+
+            int num1 = int.Parse(Console.ReadLine()); // Número 1
+            int num2 = int.Parse(Console.ReadLine()); // Número 2
+            Console.WriteLine($"La resta total de dos números es: {num1 - num2}"); // Suma total.
 
         }
     }
