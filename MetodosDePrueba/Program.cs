@@ -37,7 +37,8 @@ namespace MetodosDePrueba
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1
             int num2 = int.Parse(Console.ReadLine()); // Número 2
-            Console.WriteLine($"La suma total de dos números es: {num1 + num2}"); // Suma total.
+            int num3 = int.Parse(Console.ReadLine()); // Número 3
+            Console.WriteLine($"La suma total de dos números es: {num1 + num2 + num3}"); // Suma total de 3 números.
 
         }
 
@@ -51,7 +52,7 @@ namespace MetodosDePrueba
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1
             int num2 = int.Parse(Console.ReadLine()); // Número 2
-            Console.WriteLine($"La resta total de dos números es: {num1 - num2}"); // Suma total.
+            Console.WriteLine($"La resta total de dos números es: {num1 - num2}"); // Resta total.
 
         }
     }
