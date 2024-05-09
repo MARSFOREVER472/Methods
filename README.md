@@ -58,7 +58,7 @@ namespace MetodosDePrueba
 
         public static void Resta()
         {
-            // Console.WriteLine($"La resta de tres números es {num1 - num2 - num3 - num4}"); // Imprime la resta total de tres números.
+            // Console.WriteLine($"La resta de tres números es {num1 - num2 - num3 - num4}"); // Imprime la resta total de cuatro números.
 
             // return num1 - num2 - num3 - num4;
 
