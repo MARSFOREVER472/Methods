@@ -60,7 +60,7 @@ namespace MetodosDePrueba
         {
             // Console.WriteLine($"La resta de tres números es {num1 - num2 - num3}"); // Imprime la suma total de tres números.
 
-            // return num1 - num2 - num3;
+            // return num1 - num2 - num3 - num4;
 
             // Existen diferentes formas de restar tres números fundamentales utilizando variables ya avanzadas.
 
