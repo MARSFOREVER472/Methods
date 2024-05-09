@@ -44,7 +44,7 @@ namespace MetodosDePrueba
         {
             // Console.WriteLine($"La suma de dos números es {num1 + num2 + num3 + num4}"); // Imprime la suma total de dos números.
 
-            // return num1 + num2 + num3;
+            // return num1 + num2 + num3 + num4;
 
             // Existen diferentes formas de sumar dos números fundamentales utilizando variables ya avanzadas.
 
