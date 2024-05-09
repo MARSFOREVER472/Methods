@@ -31,7 +31,7 @@ namespace MetodosDePrueba
         {
             // Console.WriteLine($"La suma de tres números es {num1 + num2 + num3 + num 4}"); // Imprime la suma total de cuatro números.
 
-            // return num1 + num2 + num3;
+            // return num1 + num2 + num3 + num4;
 
             // Existen diferentes formas de sumar tres números fundamentales utilizando variables ya avanzadas.
 
@@ -45,16 +45,17 @@ namespace MetodosDePrueba
 
         public static void Resta()
         {
-            // Console.WriteLine($"La resta de tres números es {num1 - num2 - num3}"); // Imprime la suma total de tres números.
+            // Console.WriteLine($"La resta de cuatro números es {num1 - num2 - num - num4}"); // Imprime la resta total de cuatro números.
 
-            // return num1 - num2 - num3;
+            // return num1 - num2 - num3 - num4;
 
-            // Existen diferentes formas de restar tres números fundamentales utilizando variables ya avanzadas.
+            // Existen diferentes formas de restar cuatro números fundamentales utilizando variables ya avanzadas.
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1
             int num2 = int.Parse(Console.ReadLine()); // Número 2
             int num3 = int.Parse(Console.ReadLine()); // Número 3
-            Console.WriteLine($"La resta total de dos números es: {num1 - num2 - num3}"); // Resta total.
+            int num4 = int.Parse(Console.ReadLine()); // Número 4
+            Console.WriteLine($"La resta total de dos números es: {num1 - num2 - num3 - num4}"); // Resta total.
 
         }
     }
