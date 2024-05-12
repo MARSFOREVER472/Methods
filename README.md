@@ -68,7 +68,7 @@ namespace MetodosDePrueba
             int num2 = int.Parse(Console.ReadLine()); // Número 2
             int num3 = int.Parse(Console.ReadLine()); // Número 3
             int num4 = int.Parse(Console.ReadLine()); // Número 4
-            Console.WriteLine($"La resta total de dos números es: {num1 - num2 - num3 - num4}"); // Resta total.
+            Console.WriteLine($"La resta total de cuatro números es: {num1 - num2 - num3 - num4}"); // Resta total.
 
         }
     }
