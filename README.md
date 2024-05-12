@@ -42,7 +42,7 @@ namespace MetodosDePrueba
 
         public static void Suma()
         {
-            // Console.WriteLine($"La suma de dos números es {num1 + num2 + num3 + num4}"); // Imprime la suma total de cuatro números.
+            // Console.WriteLine($"La suma de cuatro números es {num1 + num2 + num3 + num4}"); // Imprime la suma total de cuatro números.
 
             // return num1 + num2 + num3 + num4;
 
