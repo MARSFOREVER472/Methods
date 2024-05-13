@@ -37,8 +37,14 @@ namespace MetodosDePrueba
 
             // Existen diferentes formas de sumar dos números fundamentales utilizando variables ya avanzadas.
 
+            Console.WriteLine("INTRODUCE UN NÚMERO: ");
+
             int num1 = int.Parse(Console.ReadLine()); // Número 1
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
             int num2 = int.Parse(Console.ReadLine()); // Número 2
+
             Console.WriteLine($"La suma total de dos números es: {num1 + num2}"); // Suma total de 2 números.
 
         }
@@ -62,12 +68,15 @@ namespace MetodosDePrueba
         public static void Suma2()
         {
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
+
             int num1 = int.Parse(Console.ReadLine()); // Número 1.
 
             Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
             int num2 = int.Parse(Console.ReadLine()); // Número 2.
 
             Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
             int num3 = int.Parse(Console.ReadLine()); // Número 3.
 
             Console.WriteLine($"La suma total de tres números es: {num1 + num2 + num3}"); // Suma total de 3 números.
