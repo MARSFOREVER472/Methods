@@ -1,5 +1,8 @@
 # _Methods_
 
+- **_Un método es un bloque de código que contiene una serie de instrucciones. Un programa hace que se ejecuten las instrucciones al llamar al método y especificando los argumentos de método necesarios._**
+- **_En C#, todas las instrucciones ejecutadas se realizan en el contexto de un método._**
+
 **_Cómo efectuar este procedimiento:_**
 
 **_Se ingresan 2 números para poder efectuar básicamente algunas operaciones matemáticas._**
@@ -42,11 +45,11 @@ namespace MetodosDePrueba
 
         public static void Suma()
         {
-            // Console.WriteLine($"La suma de dos números es {num1 + num2 + num3 + num4}"); // Imprime la suma total de cuatro números.
+            // Console.WriteLine($"La suma de cuatro números es {num1 + num2 + num3 + num4}"); // Imprime la suma total de cuatro números.
 
             // return num1 + num2 + num3 + num4;
 
-            // Existen diferentes formas de sumar dos números fundamentales utilizando variables ya avanzadas.
+            // Existen diferentes formas de sumar cuatro números fundamentales utilizando variables ya avanzadas.
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1
             int num2 = int.Parse(Console.ReadLine()); // Número 2
@@ -58,17 +61,17 @@ namespace MetodosDePrueba
 
         public static void Resta()
         {
-            // Console.WriteLine($"La resta de tres números es {num1 - num2 - num3 - num4}"); // Imprime la resta total de cuatro números.
+            // Console.WriteLine($"La resta de cuatro números es {num1 - num2 - num3 - num4}"); // Imprime la resta total de cuatro números.
 
             // return num1 - num2 - num3 - num4;
 
-            // Existen diferentes formas de restar tres números fundamentales utilizando variables ya avanzadas.
+            // Existen diferentes formas de restar cuatro números fundamentales utilizando variables ya avanzadas.
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1
             int num2 = int.Parse(Console.ReadLine()); // Número 2
             int num3 = int.Parse(Console.ReadLine()); // Número 3
             int num4 = int.Parse(Console.ReadLine()); // Número 4
-            Console.WriteLine($"La resta total de dos números es: {num1 - num2 - num3 - num4}"); // Resta total.
+            Console.WriteLine($"La resta total de cuatro números es: {num1 - num2 - num3 - num4}"); // Resta total.
 
         }
     }
