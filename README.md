@@ -1,5 +1,7 @@
 # _Methods_
 
+Un método es un bloque de código que contiene una serie de instrucciones. Un programa hace que se ejecuten las instrucciones al llamar al método y especificando los argumentos de método necesarios. En C#, todas las instrucciones ejecutadas se realizan en el contexto de un método.
+
 **_Cómo efectuar este procedimiento:_**
 
 **_Se ingresan 2 números para poder efectuar básicamente algunas operaciones matemáticas._**
