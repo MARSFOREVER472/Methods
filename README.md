@@ -70,7 +70,7 @@ namespace MetodosDePrueba
 
             // return num1 - num2;
 
-            // Existen diferentes formas de restar cuatro números fundamentales utilizando variables ya avanzadas.
+            // Existen diferentes formas de restar dos números fundamentales utilizando variables ya avanzadas.
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1
             int num2 = int.Parse(Console.ReadLine()); // Número 2
