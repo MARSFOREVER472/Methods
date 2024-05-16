@@ -68,7 +68,7 @@ namespace MetodosDePrueba
         {
             // Console.WriteLine($"La resta de dos números es {num1 - num2}"); // Imprime la resta total de dos números.
 
-            // return num1 - num2 - num3 - num4;
+            // return num1 - num2;
 
             // Existen diferentes formas de restar cuatro números fundamentales utilizando variables ya avanzadas.
 
