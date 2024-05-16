@@ -57,10 +57,22 @@ namespace MetodosDePrueba
 
             // Existen diferentes formas de restar cuatro números fundamentales utilizando variables ya avanzadas.
 
+            Console.WriteLine("INTRODUCE UN NÚMERO: ");
+
             int num1 = int.Parse(Console.ReadLine()); // Número 1.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
             int num2 = int.Parse(Console.ReadLine()); // Número 2.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
             int num3 = int.Parse(Console.ReadLine()); // Número 3.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
             int num4 = int.Parse(Console.ReadLine()); // Número 4.
+
             Console.WriteLine($"La resta total de dos números es: {num1 - num2 - num3 - num4}"); // Resta total.
 
         }
