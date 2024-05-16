@@ -72,6 +72,8 @@ namespace MetodosDePrueba
 
             // Existen diferentes formas de restar dos números fundamentales utilizando variables ya avanzadas.
 
+            Console.WriteLine("INTRODUCE UN NÚMERO: ");
+
             int num1 = int.Parse(Console.ReadLine()); // Número 1
             int num2 = int.Parse(Console.ReadLine()); // Número 2
 
