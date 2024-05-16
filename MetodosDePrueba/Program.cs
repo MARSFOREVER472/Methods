@@ -51,11 +51,11 @@ namespace MetodosDePrueba
 
         public static void Resta()
         {
-            // Console.WriteLine($"La resta de cuatro números es {num1 - num2 - num3 - num4}"); // Imprime la resta total de cuatro números.
+            // Console.WriteLine($"La resta de dos números es {num1 - num2}"); // Imprime la resta total de dos números.
 
-            // return num1 - num2 - num3 - num4;
+            // return num1 - num2;
 
-            // Existen diferentes formas de restar cuatro números fundamentales utilizando variables ya avanzadas.
+            // Existen diferentes formas de restar dos números fundamentales utilizando variables ya avanzadas.
 
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
@@ -65,15 +65,7 @@ namespace MetodosDePrueba
 
             int num2 = int.Parse(Console.ReadLine()); // Número 2.
 
-            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
-
-            int num3 = int.Parse(Console.ReadLine()); // Número 3.
-
-            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
-
-            int num4 = int.Parse(Console.ReadLine()); // Número 4.
-
-            Console.WriteLine($"La resta total de dos números es: {num1 - num2 - num3 - num4}"); // Resta total.
+            Console.WriteLine($"La resta total de dos números es: {num1 - num2}"); // Resta total.
 
         }
 
