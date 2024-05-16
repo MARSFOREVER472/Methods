@@ -1,6 +1,7 @@
 # _Methods_
 
-- **_Un método es un bloque de código que contiene una serie de instrucciones. Un programa hace que se ejecuten las instrucciones al llamar al método y especificando los argumentos de método necesarios._**
+- **_Un método es un bloque de código que contiene una serie de instrucciones._**
+- **_Un programa hace que se ejecuten las instrucciones al llamar al método y especificando los argumentos de método necesarios._**
 - **_En C#, todas las instrucciones ejecutadas se realizan en el contexto de un método._**
 
 **_Cómo efectuar este procedimiento:_**
@@ -45,17 +46,21 @@ namespace MetodosDePrueba
 
         public static void Suma()
         {
-            // Console.WriteLine($"La suma de cuatro números es {num1 + num2 + num3 + num4}"); // Imprime la suma total de cuatro números.
+            // Console.WriteLine($"La suma de dos números es {num1 + num2}"); // Imprime la suma total de dos números.
 
-            // return num1 + num2 + num3 + num4;
+            // return num1 + num2;
 
-            // Existen diferentes formas de sumar cuatro números fundamentales utilizando variables ya avanzadas.
+            // Existen diferentes formas de sumar dos números fundamentales utilizando variables ya avanzadas.
+
+            Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
             int num2 = int.Parse(Console.ReadLine()); // Número 2
-            int num3 = int.Parse(Console.ReadLine()); // Número 3
-            int num4 = int.Parse(Console.ReadLine()); // Número 4
-            Console.WriteLine($"La suma total de cuatro números es: {num1 + num2 + num3 + num4}"); // Suma total de 4 números.
+
+            Console.WriteLine($"La suma total de dos números es: {num1 + num2}"); // Suma total de 2 números.
 
         }
 
@@ -73,6 +78,23 @@ namespace MetodosDePrueba
             int num4 = int.Parse(Console.ReadLine()); // Número 4
             Console.WriteLine($"La resta total de cuatro números es: {num1 - num2 - num3 - num4}"); // Resta total.
 
+        }
+
+        public static void Suma2()
+        {
+            Console.WriteLine("INTRODUCE UN NÚMERO: ");
+
+            int num1 = int.Parse(Console.ReadLine()); // Número 1.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num2 = int.Parse(Console.ReadLine()); // Número 2.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num3 = int.Parse(Console.ReadLine()); // Número 3.
+
+            Console.WriteLine($"La suma total de tres números es: {num1 + num2 + num3}"); // Suma total de 3 números.
         }
     }
 }
