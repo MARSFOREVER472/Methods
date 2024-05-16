@@ -75,6 +75,8 @@ namespace MetodosDePrueba
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
             int num2 = int.Parse(Console.ReadLine()); // Número 2
 
             Console.WriteLine($"La resta total de dos números es: {num1 - num2}"); // Resta total.
