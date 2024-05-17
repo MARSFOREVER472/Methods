@@ -21,6 +21,7 @@ namespace MetodosDePrueba
             Suma(); // LLAMADO DEL PRIMER MÉTODO...
             Resta(); // LLAMADO DEL SEGUNDO MÉTODO...
             Suma2(); // LLAMADO DEL TERCER MÉTODO...
+            Resta2(); // LLAMADO DEL CUARTO MÉTODO...
         }
 
         // public double[] Suma()
@@ -36,6 +37,8 @@ namespace MetodosDePrueba
             // return num1 + num2;
 
             // Existen diferentes formas de sumar dos números fundamentales utilizando variables ya avanzadas.
+
+            Console.WriteLine("*****SUMAR 2 NÚMEROS*****");
 
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
@@ -57,6 +60,8 @@ namespace MetodosDePrueba
 
             // Existen diferentes formas de restar dos números fundamentales utilizando variables ya avanzadas.
 
+            Console.WriteLine("*****RESTAR 2 NÚMEROS*****");
+
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1.
@@ -71,6 +76,8 @@ namespace MetodosDePrueba
 
         public static void Suma2()
         {
+            Console.WriteLine("*****SUMAR 3 NÚMEROS*****");
+
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1.
@@ -84,6 +91,25 @@ namespace MetodosDePrueba
             int num3 = int.Parse(Console.ReadLine()); // Número 3.
 
             Console.WriteLine($"La suma total de tres números es: {num1 + num2 + num3}"); // Suma total de 3 números.
+        }
+
+        public static void Resta2()
+        {
+            Console.WriteLine("*****RESTAR 3 NÚMEROS*****");
+
+            Console.WriteLine("INTRODUCE UN NÚMERO: ");
+
+            int num1 = int.Parse(Console.ReadLine()); // Número 1.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num2 = int.Parse(Console.ReadLine()); // Número 2.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num3 = int.Parse(Console.ReadLine()); // Número 3.
+
+            Console.WriteLine($"La resta total de tres números es: {num1 - num2 - num3}"); // Resta total de 3 números.
         }
     }
 }
