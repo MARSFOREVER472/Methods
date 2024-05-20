@@ -22,6 +22,7 @@ namespace MetodosDePrueba
             Resta(); // LLAMADO DEL SEGUNDO MÉTODO...
             Suma2(); // LLAMADO DEL TERCER MÉTODO...
             Resta2(); // LLAMADO DEL CUARTO MÉTODO...
+            Suma3(); // LLAMADO DEL QUINTO MÉTODO...
         }
 
         // public double[] Suma()
@@ -110,6 +111,29 @@ namespace MetodosDePrueba
             int num3 = int.Parse(Console.ReadLine()); // Número 3.
 
             Console.WriteLine($"La resta total de tres números es: {num1 - num2 - num3}"); // Resta total de 3 números.
+        }
+
+        public static void Suma3()
+        {
+            Console.WriteLine("*****SUMAR 4 NÚMEROS*****");
+
+            Console.WriteLine("INTRODUCE UN NÚMERO: ");
+
+            int num1 = int.Parse(Console.ReadLine()); // Número 1.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num2 = int.Parse(Console.ReadLine()); // Número 2.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num3 = int.Parse(Console.ReadLine()); // Número 3.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num4 = int.Parse(Console.ReadLine()); // Número 4.
+
+            Console.WriteLine($"La suma total de cuatro números es: {num1 + num2 + num3 + num4}"); // Suma total de 4 números.
         }
     }
 }
