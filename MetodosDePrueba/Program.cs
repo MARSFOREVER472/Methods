@@ -34,12 +34,14 @@ namespace MetodosDePrueba
 
         public static void Suma()
         {
+            Console.WriteLine("**********BIENVENIDO DE NUEVO, ESTIMADO!!!!!**********");
+
             // Console.WriteLine($"La suma de dos números es {num1 + num2}"); // Imprime la suma total de dos números.
 
             // return num1 + num2;
 
             // Existen diferentes formas de sumar dos números fundamentales utilizando variables ya avanzadas.
-
+       
             Console.WriteLine("*****SUMAR 2 NÚMEROS*****");
 
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
