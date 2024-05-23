@@ -52,6 +52,9 @@ namespace MetodosDePrueba
 
         public static void Suma()
         {
+             
+               Console.WriteLine("**********BIENVENIDO DE NUEVO, ESTIMADO!!!!!**********");
+
             // Console.WriteLine($"La suma de dos números es {num1 + num2}"); // Imprime la suma total de dos números.
 
             // return num1 + num2;
@@ -175,7 +178,7 @@ namespace MetodosDePrueba
 
             int num4 = int.Parse(Console.ReadLine()); // Número 4.
 
-            Console.WriteLine($"La resta total de cuatro números es: {num1 - num2 - num3 - num4}"); // Suma total de 4 números.
+            Console.WriteLine($"La resta total de cuatro números es: {num1 - num2 - num3 - num4}"); // Resta total de 4 números.
         }
     }
 }
