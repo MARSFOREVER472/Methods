@@ -18,12 +18,56 @@ namespace MetodosDePrueba
             // double total = Suma(2, 3); // Esta línea de código tiene que tener un método estático.
             // Console.WriteLine(total); // Imprime desde la variable la suma total.
 
-            Suma(); // LLAMADO DEL PRIMER MÉTODO...
-            Resta(); // LLAMADO DEL SEGUNDO MÉTODO...
-            Suma2(); // LLAMADO DEL TERCER MÉTODO...
-            Resta2(); // LLAMADO DEL CUARTO MÉTODO...
-            Suma3(); // LLAMADO DEL QUINTO MÉTODO...
-            Resta3(); // LLAMADO DEL SEXTO MÉTODO...
+            bool exit = false; // SI ACTUALMENTE SIGUE EJECUTANDO CUALQUIERA DE ALGUNAS OPCIONES DEL MENÚ EN CASO DE NO SEGUIR...
+
+            while(!exit)
+            {
+                Console.WriteLine("**********BIENVENIDO DE NUEVO, ESTIMADO!!!!!**********");
+                Console.WriteLine("SELECCIONE ALGUNAS DE LAS OPCIONES A REALIZAR DICHA OPERACION: ");
+                Console.WriteLine("OPCION 1: SUMAR 2 NÚMEROS");
+                Console.WriteLine("OPCION 2: RESTAR 2 NÚMEROS");
+                Console.WriteLine("OPCION 3: SUMAR 3 NÚMEROS");
+                Console.WriteLine("OPCION 4: RESTAR 3 NÚMEROS");
+                Console.WriteLine("OPCION 5: SUMAR 4 NÚMEROS");
+                Console.WriteLine("OPCION 6: RESTAR 4 NÚMEROS");
+                Console.WriteLine("OPCION 7: SALIR");
+
+                int opcion = Convert.ToInt32(Console.ReadLine()); // SE DEBEN DE ELEGIR NÚMEROS DEL 1 AL 7 PARA EFECTUAR DICHO PROCESO...
+
+                switch (opcion)
+                {
+                    case 1:
+                        Console.WriteLine("*****SUMAR 2 NÚMEROS*****");
+                        Suma(); // LLAMADO DEL PRIMER MÉTODO...
+                        break;
+                    case 2:
+                        Console.WriteLine("*****RESTAR 2 NÚMEROS*****");
+                        Resta(); // LLAMADO DEL SEGUNDO MÉTODO...
+                        break;
+                    case 3:
+                        Console.WriteLine("*****SUMAR 3 NÚMEROS*****");
+                        Suma2(); // LLAMADO DEL TERCER MÉTODO...
+                        break;
+                    case 4:
+                        Console.WriteLine("*****RESTAR 3 NÚMEROS*****");
+                        Resta2(); // LLAMADO DEL CUARTO MÉTODO...
+                        break;
+                    case 5:
+                        Console.WriteLine("*****SUMAR 4 NÚMEROS*****");
+                        Suma3(); // LLAMADO DEL QUINTO MÉTODO...
+                        break;
+                    case 6:
+                        Console.WriteLine("*****RESTAR 4 NÚMEROS*****");
+                        Resta3(); // LLAMADO DEL SEXTO MÉTODO...
+                        break;
+                    case 7:
+                        Console.WriteLine("¡¡¡¡¡NOS VEMOS PRONTO!!!!! :(");
+                        break;
+                    default:
+                        Console.WriteLine("SELECCIONE UNA OPCION DEL 1 AL 7!!!!");
+                            break;
+                }
+            }
         }
 
         // public double[] Suma()
@@ -34,7 +78,6 @@ namespace MetodosDePrueba
 
         public static void Suma()
         {
-            Console.WriteLine("**********BIENVENIDO DE NUEVO, ESTIMADO!!!!!**********");
 
             // Console.WriteLine($"La suma de dos números es {num1 + num2}"); // Imprime la suma total de dos números.
 
@@ -42,8 +85,6 @@ namespace MetodosDePrueba
 
             // Existen diferentes formas de sumar dos números fundamentales utilizando variables ya avanzadas.
        
-            Console.WriteLine("*****SUMAR 2 NÚMEROS*****");
-
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1
