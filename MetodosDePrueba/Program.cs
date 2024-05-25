@@ -18,11 +18,11 @@ namespace MetodosDePrueba
             // double total = Suma(2, 3); // Esta línea de código tiene que tener un método estático.
             // Console.WriteLine(total); // Imprime desde la variable la suma total.
 
-            bool exit = false; // SI ACTUALMENTE SIGUE EJECUTANDO CUALQUIERA DE ALGUNAS OPCIONES DEL MENÚ EN CASO DE NO SEGUIR...
+            bool salir = false; // SI ACTUALMENTE SIGUE EJECUTANDO CUALQUIERA DE ALGUNAS OPCIONES DEL MENÚ EN CASO DE NO SEGUIR...
 
-            while(!exit)
+            while(!salir)
             {
-                Console.WriteLine("**********BIENVENIDO DE NUEVO, ESTIMADO!!!!!**********");
+                Console.WriteLine("**********BIENVENIDO A LA SECCIÓN DE MÉTODOS, ESTIMADO!!!!!**********");
                 Console.WriteLine("SELECCIONE ALGUNAS DE LAS OPCIONES A REALIZAR DICHA OPERACION: ");
                 Console.WriteLine("OPCION 1: SUMAR 2 NÚMEROS");
                 Console.WriteLine("OPCION 2: RESTAR 2 NÚMEROS");
@@ -105,8 +105,6 @@ namespace MetodosDePrueba
 
             // Existen diferentes formas de restar dos números fundamentales utilizando variables ya avanzadas.
 
-            Console.WriteLine("*****RESTAR 2 NÚMEROS*****");
-
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1.
@@ -121,8 +119,6 @@ namespace MetodosDePrueba
 
         public static void Suma2()
         {
-            Console.WriteLine("*****SUMAR 3 NÚMEROS*****");
-
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1.
@@ -140,7 +136,6 @@ namespace MetodosDePrueba
 
         public static void Resta2()
         {
-            Console.WriteLine("*****RESTAR 3 NÚMEROS*****");
 
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
@@ -159,7 +154,6 @@ namespace MetodosDePrueba
 
         public static void Suma3()
         {
-            Console.WriteLine("*****SUMAR 4 NÚMEROS*****");
 
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
@@ -182,8 +176,6 @@ namespace MetodosDePrueba
 
         public static void Resta3()
         {
-            Console.WriteLine("*****RESTAR 4 NÚMEROS*****");
-
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1.
