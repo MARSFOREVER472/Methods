@@ -22,6 +22,17 @@ namespace MetodosDePrueba
 
             while(!salir)
             {
+                Console.WriteLine("                    ********************                    ");
+                Console.WriteLine("                    ********************                    ");
+                Console.WriteLine("                    *****  ******  *****                    ");
+                Console.WriteLine("                    *****  ******  *****                    ");
+                Console.WriteLine("                    ********************                    ");
+                Console.WriteLine("                    *********  *********                    ");
+                Console.WriteLine("                    ********************                    ");
+                Console.WriteLine("                    *****          *****                    ");
+                Console.WriteLine("                    ********************                    ");
+                Console.WriteLine("                    ********************                    ");
+                Console.WriteLine("");
                 Console.WriteLine("**********BIENVENIDO A LA SECCIÓN DE MÉTODOS, ESTIMADO!!!!!**********");
                 Console.WriteLine("SELECCIONE ALGUNAS DE LAS OPCIONES A REALIZAR DICHA OPERACION: ");
                 Console.WriteLine("OPCION 1: SUMAR 2 NÚMEROS");
