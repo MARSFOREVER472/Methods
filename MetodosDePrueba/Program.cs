@@ -20,25 +20,29 @@ namespace MetodosDePrueba
 
             bool salir = false; // SI ACTUALMENTE SIGUE EJECUTANDO CUALQUIERA DE ALGUNAS OPCIONES DEL MENÚ EN CASO DE NO SEGUIR...
 
-            while(!salir)
+            Console.WriteLine("");
+            Console.WriteLine("                 *****                *****");
+            Console.WriteLine("                  *****              *****");
+            Console.WriteLine("                   *****            *****");
+            Console.WriteLine("                    *****          *****");
+            Console.WriteLine("                    *****          *****");
+            Console.WriteLine("                    *****          *****");
+            Console.WriteLine("                    *****          *****");
+            Console.WriteLine("                    ********************                    ");
+            Console.WriteLine("                    ********************                    ");
+            Console.WriteLine("                    *****  ******  *****                    ");
+            Console.WriteLine("                    *****  ******  *****                    ");
+            Console.WriteLine("                    ********************                    ");
+            Console.WriteLine("                    *********  *********                    ");
+            Console.WriteLine("                    ********************                    ");
+            Console.WriteLine("                    *****          *****                    ");
+            Console.WriteLine("                    ********************                    ");
+            Console.WriteLine("                    ********************                    ");
+            Console.WriteLine("");
+            Console.WriteLine("**********BIENVENIDO A LA SECCIÓN DE MÉTODOS, ESTIMADO!!!!!**********");
+
+            while (!salir)
             {
-                Console.WriteLine("");
-                Console.WriteLine("                    *****          *****");
-                Console.WriteLine("                    *****          *****");
-                Console.WriteLine("                    *****          *****");
-                Console.WriteLine("                    *****          *****");
-                Console.WriteLine("                    ********************                    ");
-                Console.WriteLine("                    ********************                    ");
-                Console.WriteLine("                    *****  ******  *****                    ");
-                Console.WriteLine("                    *****  ******  *****                    ");
-                Console.WriteLine("                    ********************                    ");
-                Console.WriteLine("                    *********  *********                    ");
-                Console.WriteLine("                    ********************                    ");
-                Console.WriteLine("                    *****          *****                    ");
-                Console.WriteLine("                    ********************                    ");
-                Console.WriteLine("                    ********************                    ");
-                Console.WriteLine("");
-                Console.WriteLine("**********BIENVENIDO A LA SECCIÓN DE MÉTODOS, ESTIMADO!!!!!**********");
                 Console.WriteLine("SELECCIONE ALGUNAS DE LAS OPCIONES A REALIZAR DICHA OPERACION: ");
                 Console.WriteLine("OPCION 1: SUMAR 2 NÚMEROS");
                 Console.WriteLine("OPCION 2: RESTAR 2 NÚMEROS");
@@ -77,7 +81,15 @@ namespace MetodosDePrueba
                         Resta3(); // LLAMADO DEL SEXTO MÉTODO...
                         break;
                     case 7:
-                        Console.WriteLine("¡¡¡¡¡NOS VEMOS PRONTO!!!!! :(");
+                        Console.WriteLine("HASTA LUEGO!");
+                        Console.WriteLine("");
+                        Console.WriteLine("  ***    ***  ");
+                        Console.WriteLine("  ***    ***  ");
+                        Console.WriteLine("              ");
+                        Console.WriteLine("     ****     ");
+                        Console.WriteLine("   **    **   ");
+                        Console.WriteLine("   **    **   ");
+                        Console.WriteLine("");
                         break;
                     default:
                         Console.WriteLine("SELECCIONE UNA OPCION DEL 1 AL 7!!!!");
