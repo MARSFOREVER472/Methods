@@ -20,10 +20,12 @@ namespace MetodosDePrueba
 
             bool salir = false; // SI ACTUALMENTE SIGUE EJECUTANDO CUALQUIERA DE ALGUNAS OPCIONES DEL MENÚ EN CASO DE NO SEGUIR...
 
-            Console.WriteLine("");
-            Console.WriteLine("                 *****                *****");
-            Console.WriteLine("                  *****              *****");
-            Console.WriteLine("                   *****            *****");
+            Console.WriteLine("               *****                    *****");
+            Console.WriteLine("              *******                  *******");
+            Console.WriteLine("             *********                *********");
+            Console.WriteLine("            ***** *****              ***** *****");
+            Console.WriteLine("           *****   *****            *****   *****");
+            Console.WriteLine("          *****     *****          *****     *****");
             Console.WriteLine("                    *****          *****");
             Console.WriteLine("                    *****          *****");
             Console.WriteLine("                    *****          *****");
@@ -38,6 +40,13 @@ namespace MetodosDePrueba
             Console.WriteLine("                    *****          *****                    ");
             Console.WriteLine("                    ********************                    ");
             Console.WriteLine("                    ********************                    ");
+            Console.WriteLine("                   **********************                    ");
+            Console.WriteLine("                  ************************                    ");
+            Console.WriteLine("                 **************************                    ");
+            Console.WriteLine("                ****************************                    ");
+            Console.WriteLine("               ******************************                    ");
+            Console.WriteLine("              ********************************                    ");
+            Console.WriteLine("             **********************************                    ");
             Console.WriteLine("");
             Console.WriteLine("**********BIENVENIDO A LA SECCIÓN DE MÉTODOS, ESTIMADO!!!!!**********");
 
@@ -81,7 +90,7 @@ namespace MetodosDePrueba
                         Resta3(); // LLAMADO DEL SEXTO MÉTODO...
                         break;
                     case 7:
-                        Console.WriteLine("HASTA LUEGO!");
+                        Console.WriteLine(" HASTA LUEGO!");
                         Console.WriteLine("");
                         Console.WriteLine("  ***    ***  ");
                         Console.WriteLine("  ***    ***  ");
@@ -90,6 +99,7 @@ namespace MetodosDePrueba
                         Console.WriteLine("   **    **   ");
                         Console.WriteLine("   **    **   ");
                         Console.WriteLine("");
+                        Salir();
                         break;
                     default:
                         Console.WriteLine("SELECCIONE UNA OPCION DEL 1 AL 7!!!!");
@@ -221,6 +231,11 @@ namespace MetodosDePrueba
             int num4 = int.Parse(Console.ReadLine()); // Número 4.
 
             Console.WriteLine($"La resta total de cuatro números es: {num1 - num2 - num3 - num4}"); // Suma total de 4 números.
+        }
+
+        public static bool Salir()
+        {
+            return true;
         }
     }
 }
