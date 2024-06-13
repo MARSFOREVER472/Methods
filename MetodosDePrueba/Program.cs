@@ -52,14 +52,17 @@ namespace MetodosDePrueba
 
             while (!salir)
             {
+                Console.WriteLine("");
                 Console.WriteLine("SELECCIONE ALGUNAS DE LAS OPCIONES A REALIZAR DICHA OPERACION: ");
+                Console.WriteLine("");
                 Console.WriteLine("OPCION 1: SUMAR 2 NÚMEROS");
                 Console.WriteLine("OPCION 2: RESTAR 2 NÚMEROS");
                 Console.WriteLine("OPCION 3: SUMAR 3 NÚMEROS");
                 Console.WriteLine("OPCION 4: RESTAR 3 NÚMEROS");
                 Console.WriteLine("OPCION 5: SUMAR 4 NÚMEROS");
                 Console.WriteLine("OPCION 6: RESTAR 4 NÚMEROS");
-                Console.WriteLine("OPCION 7: SALIR");
+                Console.WriteLine("OPCION 7: SUMAR 5 NÚMEROS");
+                Console.WriteLine("OPCION 8: SALIR");
 
                 int opcion = Convert.ToInt32(Console.ReadLine()); // SE DEBEN DE ELEGIR NÚMEROS DEL 1 AL 7 PARA EFECTUAR DICHO PROCESO...
 
@@ -90,6 +93,10 @@ namespace MetodosDePrueba
                         Resta3(); // LLAMADO DEL SEXTO MÉTODO...
                         break;
                     case 7:
+                        Console.WriteLine("*****SUMAR 5 NÚMEROS*****");
+                        Suma4(); // LLAMADO DEL SÉPTIMO MÉTODO...
+                        break;
+                    case 8:
                         Console.WriteLine(" HASTA LUEGO!");
                         Console.WriteLine("");
                         Console.WriteLine("  ***    ***  ");
@@ -102,7 +109,7 @@ namespace MetodosDePrueba
                         Salir();
                         break;
                     default:
-                        Console.WriteLine("SELECCIONE UNA OPCION DEL 1 AL 7!!!!");
+                        Console.WriteLine("SELECCIONE UNA OPCION DEL 1 AL 8!!!!");
                             break;
                 }
             }
@@ -231,6 +238,32 @@ namespace MetodosDePrueba
             int num4 = int.Parse(Console.ReadLine()); // Número 4.
 
             Console.WriteLine($"La resta total de cuatro números es: {num1 - num2 - num3 - num4}"); // Suma total de 4 números.
+        }
+
+        public static void Suma4()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("INTRODUCE UN NÚMERO: ");
+
+            int num1 = int.Parse(Console.ReadLine()); // Número 1.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num2 = int.Parse(Console.ReadLine()); // Número 2.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num3 = int.Parse(Console.ReadLine()); // Número 3.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num4 = int.Parse(Console.ReadLine()); // Número 4.
+
+            Console.WriteLine("INTRODUCE UN ÚLTIMO NÚMERO: ");
+
+            int num5 = int.Parse(Console.ReadLine()); // Número 5.
+
+            Console.WriteLine($"La suma total de cinco números es: {num1 + num2 + num3 + num4 + num5}"); // Suma total de 5 números.
         }
 
         public static bool Salir()
