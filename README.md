@@ -223,6 +223,32 @@ namespace MetodosDePrueba
 
             Console.WriteLine($"La resta total de cuatro números es: {num1 - num2 - num3 - num4}"); // Suma total de 4 números.
         }
+
+        public static void Suma4()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("INTRODUCE UN NÚMERO: ");
+
+            int num1 = int.Parse(Console.ReadLine()); // Número 1.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num2 = int.Parse(Console.ReadLine()); // Número 2.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num3 = int.Parse(Console.ReadLine()); // Número 3.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num4 = int.Parse(Console.ReadLine()); // Número 4.
+
+            Console.WriteLine("INTRODUCE UN ÚLTIMO NÚMERO: ");
+
+            int num5 = int.Parse(Console.ReadLine()); // Número 5.
+
+            Console.WriteLine($"La suma total de cinco números es: {num1 + num2 + num3 + num4 + num5}"); // Suma total de 5 números.
+        }
     }
 }
 ```
