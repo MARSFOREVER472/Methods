@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace MetodosDePrueba
 {
@@ -63,7 +64,8 @@ namespace MetodosDePrueba
                 Console.WriteLine("OPCION 6: RESTAR 4 NÚMEROS");
                 Console.WriteLine("OPCION 7: SUMAR 5 NÚMEROS");
                 Console.WriteLine("OPCION 8: RESTAR 5 NÚMEROS");
-                Console.WriteLine("OPCION 9: SALIR");
+                Console.WriteLine("OPCION 9: LLAMADOS");
+                Console.WriteLine("OPCION 10: SALIR");
 
                 int opcion = Convert.ToInt32(Console.ReadLine()); // SE DEBEN DE ELEGIR NÚMEROS DEL 1 AL 7 PARA EFECTUAR DICHO PROCESO...
 
@@ -102,6 +104,10 @@ namespace MetodosDePrueba
                         Resta4(); // LLAMADO DEL OCTAVO MÉTODO...
                         break;
                     case 9:
+                        Console.WriteLine("*****LLAMADOS*****");
+                        Caller();
+                        break;
+                    case 10:
                         Console.WriteLine(" HASTA LUEGO!");
                         Console.WriteLine("");
                         Console.WriteLine("  ***    ***  ");
@@ -295,6 +301,31 @@ namespace MetodosDePrueba
             int num5 = int.Parse(Console.ReadLine()); // Número 5.
 
             Console.WriteLine($"La resta total de cinco números es: {num1 - num2 - num3 - num4 - num5}"); // Resta total de 5 números.
+        }
+
+        public static void Caller()
+        {
+            int numA = 4; // LLAMADO DE LA VARIABLE A.
+            int productoA = Cuadrado(numA);
+            int numB = 32; // LLAMADO DE LA VARIABLE B.
+            int productoB = Cuadrado(numB);
+
+            // LLAMADO DE UN ENTERO LITERAL DE 12 ELEVADO AL CUADRADO...
+
+            int productoC = Cuadrado(12);
+
+            // LLAMADO MEDIANTE UNA EXPRESIÓN A EVALUAR...
+
+            productoC = Cuadrado(productoA * 3); // 16 * 3 = 48.
+
+        }
+
+        static int Cuadrado(int i)
+        {
+            // INSERTA VALORES DE ENTRADA AQUÍ EN ESTE MÉTODO...
+
+            int input = i;
+            return input * input; // RETORNA UN CUADRADO DE UN NÚMERO.
         }
 
         public static bool Salir()
