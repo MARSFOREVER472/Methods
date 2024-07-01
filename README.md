@@ -40,7 +40,7 @@ namespace MetodosDePrueba
 
             while(!salir)
             {
-        Console.WriteLine("               *****                    *****");
+         Console.WriteLine("               *****                    *****");
                 Console.WriteLine("              *******                  *******");
                 Console.WriteLine("             *********                *********");
                 Console.WriteLine("            ***** *****              ***** *****");
