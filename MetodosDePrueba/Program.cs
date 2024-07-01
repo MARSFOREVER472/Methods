@@ -64,8 +64,9 @@ namespace MetodosDePrueba
                 Console.WriteLine("OPCION 6: RESTAR 4 NÚMEROS");
                 Console.WriteLine("OPCION 7: SUMAR 5 NÚMEROS");
                 Console.WriteLine("OPCION 8: RESTAR 5 NÚMEROS");
-                Console.WriteLine("OPCION 9: LLAMADOS");
-                Console.WriteLine("OPCION 10: SALIR");
+                Console.WriteLine("OPCION 9: SUMAR 6 NÚMEROS");
+                Console.WriteLine("OPCION 10: RESTAR 6 NÚMEROS");
+                Console.WriteLine("OPCION 11: SALIR");
 
                 int opcion = Convert.ToInt32(Console.ReadLine()); // SE DEBEN DE ELEGIR NÚMEROS DEL 1 AL 7 PARA EFECTUAR DICHO PROCESO...
 
@@ -104,10 +105,14 @@ namespace MetodosDePrueba
                         Resta4(); // LLAMADO DEL OCTAVO MÉTODO...
                         break;
                     case 9:
-                        Console.WriteLine("*****LLAMADOS*****");
-                        Caller();
+                        Console.WriteLine("*****SUMAR 6 NÚMEROS*****");
+                        Suma5(); // LLAMADO DEL NOVENO MÉTODO...
                         break;
                     case 10:
+                        Console.WriteLine("*****RESTAR 6 NÚMEROS*****");
+                        Resta5(); // LLAMADO DEL DÉCIMO MÉTODO...
+                        break;
+                    case 11:
                         Console.WriteLine(" HASTA LUEGO!");
                         Console.WriteLine("");
                         Console.WriteLine("  ***    ***  ");
@@ -117,19 +122,18 @@ namespace MetodosDePrueba
                         Console.WriteLine("   **    **   ");
                         Console.WriteLine("   **    **   ");
                         Console.WriteLine("");
-                        Salir();
                         break;
                     default:
-                        Console.WriteLine("SELECCIONE UNA OPCION DEL 1 AL 9!!!!");
-                            break;
+                        Console.WriteLine("SELECCIONE UNA OPCION DEL 1 AL 11!!!!");
+                        break;
                 }
             }
         }
 
         // public double[] Suma()
         // {
-            // return new double[] { 5, 5 }; // Pero no es la forma correcta.
-            // Console.WriteLine("También hay otra forma para poder sumar con este método");
+        // return new double[] { 5, 5 }; // Pero no es la forma correcta.
+        // Console.WriteLine("También hay otra forma para poder sumar con este método");
         // }
 
         public static void Suma()
@@ -140,7 +144,7 @@ namespace MetodosDePrueba
             // return num1 + num2;
 
             // Existen diferentes formas de sumar dos números fundamentales utilizando variables ya avanzadas.
-       
+
             Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
             int num1 = int.Parse(Console.ReadLine()); // Número 1
@@ -303,34 +307,64 @@ namespace MetodosDePrueba
             Console.WriteLine($"La resta total de cinco números es: {num1 - num2 - num3 - num4 - num5}"); // Resta total de 5 números.
         }
 
-        public static void Caller()
+        public static void Suma5()
         {
-            int numA = 4; // LLAMADO DE LA VARIABLE A.
-            int productoA = Cuadrado(numA);
-            int numB = 32; // LLAMADO DE LA VARIABLE B.
-            int productoB = Cuadrado(numB);
+            Console.WriteLine("");
+            Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
-            // LLAMADO DE UN ENTERO LITERAL DE 12 ELEVADO AL CUADRADO...
+            int num1 = int.Parse(Console.ReadLine()); // Número 1.
 
-            int productoC = Cuadrado(12);
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
 
-            // LLAMADO MEDIANTE UNA EXPRESIÓN A EVALUAR...
+            int num2 = int.Parse(Console.ReadLine()); // Número 2.
 
-            productoC = Cuadrado(productoA * 3); // 16 * 3 = 48.
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
 
+            int num3 = int.Parse(Console.ReadLine()); // Número 3.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num4 = int.Parse(Console.ReadLine()); // Número 4.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num5 = int.Parse(Console.ReadLine()); // Número 5.
+
+            Console.WriteLine("INTRODUCE UN ÚLTIMO NÚMERO: ");
+
+            int num6 = int.Parse(Console.ReadLine()); // Número 6.
+
+            Console.WriteLine($"La suma total de seis números es: {num1 + num2 + num3 + num4 + num5 + num6}"); // Suma total de 6 números.
         }
 
-        static int Cuadrado(int i)
+        public static void Resta5()
         {
-            // INSERTA VALORES DE ENTRADA AQUÍ EN ESTE MÉTODO...
+            Console.WriteLine("");
+            Console.WriteLine("INTRODUCE UN NÚMERO: ");
 
-            int input = i;
-            return input * input; // RETORNA UN CUADRADO DE UN NÚMERO.
-        }
+            int num1 = int.Parse(Console.ReadLine()); // Número 1.
 
-        public static bool Salir()
-        {
-            return true;
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num2 = int.Parse(Console.ReadLine()); // Número 2.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num3 = int.Parse(Console.ReadLine()); // Número 3.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num4 = int.Parse(Console.ReadLine()); // Número 4.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num5 = int.Parse(Console.ReadLine()); // Número 5.
+
+            Console.WriteLine("INTRODUCE OTRO NÚMERO: ");
+
+            int num6 = int.Parse(Console.ReadLine()); // Número 6.
+
+            Console.WriteLine($"La resta total de seis números es: {num1 - num2 - num3 - num4 - num5 - num6}"); // Resta total de 6 números.
         }
     }
 }
