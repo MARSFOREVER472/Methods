@@ -21,6 +21,8 @@ namespace MetodosDePrueba
 
             bool salir = false; // SI ACTUALMENTE SIGUE EJECUTANDO CUALQUIERA DE ALGUNAS OPCIONES DEL MENÚ EN CASO DE NO SEGUIR...
 
+            Console.WriteLine("                 *                        *");
+            Console.WriteLine("                ***                      ***");
             Console.WriteLine("               *****                    *****");
             Console.WriteLine("              *******                  *******");
             Console.WriteLine("             *********                *********");
