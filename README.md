@@ -10,6 +10,7 @@
 
 - **_Los métodos se declaran en una clase, struct o interfaz especificando el nivel de acceso, como ```public``` o ```private```, modificadores opcionales como ```abstract``` o ```sealed```, el valor devuelto, el nombre del método y cualquier parámetro de método._**
 - **_Todas estas partes forman la firma del método._**
+- Los parámetros de método se encierran entre paréntesis y se separan por comas. Los paréntesis vacíos indican que el método no requiere parámetros.
   
 **_Cómo efectuar este procedimiento:_**
 
