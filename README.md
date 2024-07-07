@@ -9,6 +9,7 @@
 ### Firmas de método
 
 - Los métodos se declaran en una clase, struct o interfaz especificando el nivel de acceso, como public o private, modificadores opcionales como abstract o sealed, el valor devuelto, el nombre del método y cualquier parámetro de método.
+  
 **_Cómo efectuar este procedimiento:_**
 
 **_Se ingresan 2 números para poder efectuar básicamente algunas operaciones matemáticas._**
