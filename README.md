@@ -7,6 +7,7 @@
 - **_En una aplicación que usa instrucciones de nivel superior, el compilador genera el método ```Main``` y contiene todas las instrucciones de nivel superior._**
 
 ### Firmas de método
+
 **_Cómo efectuar este procedimiento:_**
 
 **_Se ingresan 2 números para poder efectuar básicamente algunas operaciones matemáticas._**
