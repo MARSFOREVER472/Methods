@@ -2,7 +2,8 @@
 
 - **_Un método es un bloque de código que contiene una serie de instrucciones._**
 - **_Un programa hace que se ejecuten las instrucciones al llamar al método y especificando los argumentos de método necesarios._**
-- **_En C#, todas las instrucciones ejecutadas se realizan en el contexto de un método._**
+- **_En C#, todas las instrucciones ejecutadas se realizan en el contexto de un método._**}
+- El método Main es el punto de entrada para cada aplicación de C# y se llama mediante Common Language Runtime (CLR) cuando se inicia el programa.
 
 **_Cómo efectuar este procedimiento:_**
 
