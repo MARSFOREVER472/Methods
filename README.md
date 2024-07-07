@@ -6,7 +6,7 @@
 - **_El método ```Main``` es el punto de entrada para cada aplicación de C# y se llama mediante Common Language Runtime (C.L.R.) cuando se inicia el programa._**
 - **_En una aplicación que usa instrucciones de nivel superior, el compilador genera el método ```Main``` y contiene todas las instrucciones de nivel superior._**
 
-Firmas de método
+### Firmas de método
 **_Cómo efectuar este procedimiento:_**
 
 **_Se ingresan 2 números para poder efectuar básicamente algunas operaciones matemáticas._**
