@@ -4,7 +4,7 @@
 - **_Un programa hace que se ejecuten las instrucciones al llamar al método y especificando los argumentos de método necesarios._**
 - **_En C#, todas las instrucciones ejecutadas se realizan en el contexto de un método._**
 - **_El método ```Main``` es el punto de entrada para cada aplicación de C# y se llama mediante Common Language Runtime (C.L.R.) cuando se inicia el programa._**
-- **_En una aplicación que usa instrucciones de nivel superior, el compilador genera el método Main y contiene todas las instrucciones de nivel superior._**
+- **_En una aplicación que usa instrucciones de nivel superior, el compilador genera el método ```Main``` y contiene todas las instrucciones de nivel superior._**
 
 **_Cómo efectuar este procedimiento:_**
 
